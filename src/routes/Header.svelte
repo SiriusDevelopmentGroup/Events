@@ -1,4 +1,8 @@
-<nav class="bg-neutral-900 bg-opacity-25 rounded-b-sm flex text-white items-center">
-  <h1 class="text-2xl font-bold text-white text-center p-2 px-4">Sirius Events</h1>
-  <a class="px-2 text-lg" href="#">Leaderboard</a>
-</nav>
+<div class="m-2 flex justify-center text-white">
+  <img src="/favicon.ico" alt="sirius logo" class="w-12 h-12 p-1" />
+  <h1 class="p-3 font-bold">Sirius Events</h1>
+  <select class="bg-neutral-950 pr-4 pl-4 py-2 rounded-md">
+    <option>Leaderboard</option>
+    <option>Upcoming Events</option>
+  </select>
+</div>
